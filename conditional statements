@@ -1,0 +1,880 @@
+1)if
+package java1;
+
+import java.util.Scanner;
+
+public class Demo1 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a number:");
+		int n=sc.nextInt();
+		if(n>100) {
+			System.out.println("Greater than 100");
+		}
+		else {
+			System.out.println("Less than 100");
+		}
+
+	}
+
+}
+
+2)
+package java1;
+
+import java.util.Scanner;
+
+public class Sample15 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a number:");
+		int n=sc.nextInt();
+		if(n<0) {
+			System.out.println("Negative number");
+		}
+		else {
+			System.out.println("Positive number");
+		}
+
+	}
+
+}
+
+3)
+package java1;
+
+import java.util.Scanner;
+
+public class Sample15 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a character:");
+		char c=sc.next().charAt(0);
+		if(c=='A') {
+			System.out.println("The character is 'A'");
+		}
+		
+		}
+
+	}
+
+
+4)
+package java1;
+
+import java.util.Scanner;
+
+public class Sample15 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a number:");
+		int num=sc.nextInt();
+		if(num%7==0) {
+			System.out.println("Divisible by 7");
+		}
+		else {
+			System.out.println("Not divisible by 7");
+		}
+		
+		}
+
+	}
+
+
+5)
+package java1;
+
+import java.util.Scanner;
+
+public class Sample15 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter mark:");
+		int m=sc.nextInt();
+               if (m == 100) {
+                 System.out.println("Excellent");
+}
+
+}
+
+	}
+
+
+6)
+package java1;
+
+import java.util.Scanner;
+
+public class Sample {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a word:");
+		String a= sc.nextLine();
+		if (a.length() > 5) {
+    System.out.println("String length is more than 5");
+}		
+		}
+
+	}
+
+
+7)
+package java1;
+
+import java.util.Scanner;
+
+public class Sample15 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a number:");
+		int num=sc.nextInt();
+		if (num1 % 10 == 5) {
+    System.out.println("Number ends with 5");
+}		
+		}
+
+	}
+
+
+8)
+package java1;
+public class Sample {
+
+	public static void main(String[] args) {
+          int salary = 25000;
+          if (salary == 25000) {
+             System.out.println("Salary is 25,000");
+}			
+}
+
+	}
+
+
+9)
+package java1;
+
+import java.util.Scanner;
+
+public class Sample15 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a pin:");
+		int pin=sc.nextInt();
+                if (pin == 1234) {
+    System.out.println("Correct PIN");
+}
+				
+}
+
+	}
+
+
+10)
+package java1;
+
+import java.util.Scanner;
+
+public class Sample15 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a number:");
+		int num=sc.nextInt();
+                if (num2 >= 100 && num2 <= 999) {
+                System.out.println("Three digit number");
+}
+                		
+}
+
+	}
+
+
+11)
+package java1;
+
+import java.util.Scanner;
+
+public class Sample15 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a number:");
+		int num=sc.nextInt();
+               if (num3 % 2 == 0 && num3 % 3 == 0) {
+    System.out.println("Divisible by both 2 and 3");
+}	
+}
+
+	}
+
+
+12)
+package java1;
+
+public class Sample {
+
+	public static void main(String[] args) {
+        char ch = '@';
+if (ch == '@') {
+    System.out.println("Character is @");
+}
+          	
+}
+
+	}
+
+
+13)
+package java1;
+
+import java.util.Scanner;
+
+public class Sample15 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a temperature:");
+		int temp=sc.nextInt();
+               if (temp == 0) {
+                 System.out.println("Temperature is 0°C");
+}
+
+}
+
+	}
+
+
+14)
+package java1;
+
+public class Sample {
+
+	public static void main(String[] args) {
+         int balance = 0;
+         if (balance == 0) {
+            System.out.println("Balance is zero");
+}          	
+}
+
+	}
+
+1)
+package java1;
+
+import java.util.Scanner;
+
+public class Sample20 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a number");
+		int num=sc.nextInt();
+		if(num>50) {
+			System.out.println("Greater than 50");
+		}
+		else {
+			System.out.println("Not greater than 50");
+		}
+		
+
+	}
+
+}
+2)
+package java1;
+import java.util.Scanner;
+
+public class Demo4 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the number:");
+		int num =sc.nextInt();
+		if(num%9==0) {
+			System.out.println("Divisible");
+			
+		}
+		else {
+			System.out.println("Not divisible");
+		}
+	}
+
+}
+3)
+package java1;
+
+import java.util.Scanner;
+
+public class Sample20 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter two strings");
+		String s1=sc.next();
+		String s2=sc.next();
+		if(s1.equals(s2)) {
+			System.out.println("Equal");
+		}
+		else {
+		System.out.println("Not equal");
+		}
+	}
+
+}
+4)
+package java1;
+import java.util.Scanner;
+
+public class Demo5 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter age:");
+		int age=sc.nextInt();
+		if(age>60) {
+			System.out.println("Senior");
+		}
+		else {
+			System.out.println("Not a senior");
+		}
+		
+		
+		
+
+	}
+
+}
+5)
+package java1;
+import java.util.Scanner;
+
+public class Demo5 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter number:");
+		int num=sc.nextInt();
+		if(num>=10&&num<=99) {
+			System.out.println("Two-digit number");
+		}
+		else {
+			System.out.println("Not a two-digit number");
+		}
+		
+		
+		
+
+	}
+
+}
+6)
+package java1;
+import java.util.Scanner;
+public class Demo6 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter purchase amount:");
+		int amt=sc.nextInt();
+		if(amt>=1000) {
+			System.out.println("Free delivery ");
+		}
+		else {
+			System.out.println("Next time");
+		}
+
+	}
+
+}
+7)
+package java1;
+import java.util.Scanner;
+public class Demo6 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter attendance:");
+		int a=sc.nextInt();
+		if(a>=75/100) {
+			System.out.println("75% and more");
+		}
+		else {
+			System.out.println("Less than 75%");
+		}
+
+	}
+
+}
+8)
+package java1;
+import java.util.Scanner;
+public class Demo6 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter username:");
+		String a=sc.next();
+		if(a.equals("hello123")) {
+			System.out.println("Correct");
+		}
+		else {
+			System.out.println("Invaild");
+		}
+
+	}
+
+}
+9)
+package java1;
+import java.util.Scanner;
+
+public class Demo4 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the number:");
+		int num =sc.nextInt();
+		if(num%4==0) {
+			System.out.println("Divisible");
+			
+		}
+		else {
+			System.out.println("Not divisible");
+		}
+	}
+
+}
+10)
+package java1;
+import java.util.Scanner;
+
+public class Demo3 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter number:");
+		int n= sc.nextInt();
+		if(n<=10) {
+			System.out.println("Less than 10");
+		}
+		else {
+			System.out.println("Not less than 10");
+		}
+	}
+
+}
+11)
+package java1;
+import java.util.Scanner;
+
+public class Demo4 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the number:");
+		int num =sc.nextInt();
+		if(num%11==0) {
+			System.out.println("Divisible");
+			
+		}
+		else {
+			System.out.println("Not divisible");
+		}
+	}
+
+}
+12)
+package java1;
+import java.util.Scanner;
+
+public class Demo3 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter credit score:");
+		int n= sc.nextInt();
+		if(n>=700) {
+			System.out.println("Loan is approved");
+		}
+		else {
+			System.out.println("loan not approved");
+		}
+	}
+
+}
+13)
+package java1;
+import java.util.Scanner;
+
+public class Demo3 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter mark");
+		int n= sc.nextInt();
+		if(n>=40&&n<=60) {
+			System.out.println("The mark is between 40 and 60");
+		}
+		else {
+			System.out.println("Not between 40 and 60");
+		}
+	}
+
+}
+14)
+package java1;
+import java.util.Scanner;
+
+public class Demo3 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter mark");
+		int n= sc.nextInt();
+		if(n>=40&&n<=60) {
+			System.out.println("The mark is between 40 and 60");
+		}
+		else {
+			System.out.println("Not between 40 and 60");
+		}
+	}
+
+}
+15)
+package java1;
+import java.util.Scanner;
+
+public class Demo3 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter electrical unit");
+		int n= sc.nextInt();
+		if(n>500) {
+			System.out.println("unit greater 500");
+		}
+		else {
+			System.out.println("unit less than 500");
+		}
+	}
+
+}
+
+
+if-else
+1)
+package java1;
+
+import java.util.Scanner;
+
+public class Sample20 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a number");
+		int num=sc.nextInt();
+		if(num>50) {
+			System.out.println("Greater than 50");
+		}
+		else {
+			System.out.println("Not greater than 50");
+		}
+		
+
+	}
+
+}
+2)
+package java1;
+import java.util.Scanner;
+
+public class Demo4 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the number:");
+		int num =sc.nextInt();
+		if(num%9==0) {
+			System.out.println("Divisible");
+			
+		}
+		else {
+			System.out.println("Not divisible");
+		}
+	}
+
+}
+3)
+package java1;
+
+import java.util.Scanner;
+
+public class Sample20 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter two strings");
+		String s1=sc.next();
+		String s2=sc.next();
+		if(s1.equals(s2)) {
+			System.out.println("Equal");
+		}
+		else {
+		System.out.println("Not equal");
+		}
+	}
+
+}
+4)
+package java1;
+import java.util.Scanner;
+
+public class Demo5 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter age:");
+		int age=sc.nextInt();
+		if(age>60) {
+			System.out.println("Senior");
+		}
+		else {
+			System.out.println("Not a senior");
+		}
+		
+		
+		
+
+	}
+
+}
+5)
+package java1;
+import java.util.Scanner;
+
+public class Demo5 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter number:");
+		int num=sc.nextInt();
+		if(num>=10&&num<=99) {
+			System.out.println("Two-digit number");
+		}
+		else {
+			System.out.println("Not a two-digit number");
+		}
+		
+		
+		
+
+	}
+
+}
+6)
+package java1;
+import java.util.Scanner;
+public class Demo6 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter purchase amount:");
+		int amt=sc.nextInt();
+		if(amt>=1000) {
+			System.out.println("Free delivery ");
+		}
+		else {
+			System.out.println("Next time");
+		}
+
+	}
+
+}
+7)
+package java1;
+import java.util.Scanner;
+public class Demo6 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter attendance:");
+		int a=sc.nextInt();
+		if(a>=75/100) {
+			System.out.println("75% and more");
+		}
+		else {
+			System.out.println("Less than 75%");
+		}
+
+	}
+
+}
+8)
+package java1;
+import java.util.Scanner;
+public class Demo6 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter username:");
+		String a=sc.next();
+		if(a.equals("hello123")) {
+			System.out.println("Correct");
+		}
+		else {
+			System.out.println("Invaild");
+		}
+
+	}
+
+}
+9)
+package java1;
+import java.util.Scanner;
+
+public class Demo4 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the number:");
+		int num =sc.nextInt();
+		if(num%4==0) {
+			System.out.println("Divisible");
+			
+		}
+		else {
+			System.out.println("Not divisible");
+		}
+	}
+
+}
+10)
+package java1;
+import java.util.Scanner;
+
+public class Demo3 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter number:");
+		int n= sc.nextInt();
+		if(n<=10) {
+			System.out.println("Less than 10");
+		}
+		else {
+			System.out.println("Not less than 10");
+		}
+	}
+
+}
+11)
+package java1;
+import java.util.Scanner;
+
+public class Demo4 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the number:");
+		int num =sc.nextInt();
+		if(num%11==0) {
+			System.out.println("Divisible");
+			
+		}
+		else {
+			System.out.println("Not divisible");
+		}
+	}
+
+}
+12)
+package java1;
+import java.util.Scanner;
+
+public class Demo3 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter credit score:");
+		int n= sc.nextInt();
+		if(n>=700) {
+			System.out.println("Loan is approved");
+		}
+		else {
+			System.out.println("loan not approved");
+		}
+	}
+
+}
+13)
+package java1;
+import java.util.Scanner;
+
+public class Demo3 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter mark");
+		int n= sc.nextInt();
+		if(n>=40&&n<=60) {
+			System.out.println("The mark is between 40 and 60");
+		}
+		else {
+			System.out.println("Not between 40 and 60");
+		}
+	}
+
+}
+14)
+package java1;
+import java.util.Scanner;
+
+public class Demo3 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter mark");
+		int n= sc.nextInt();
+		if(n>=40&&n<=60) {
+			System.out.println("The mark is between 40 and 60");
+		}
+		else {
+			System.out.println("Not between 40 and 60");
+		}
+	}
+
+}
+15)
+package java1;
+import java.util.Scanner;
+
+public class Demo3 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter electrical unit");
+		int n= sc.nextInt();
+		if(n>500) {
+			System.out.println("unit greater 500");
+		}
+		else {
+			System.out.println("unit less than 500");
+		}
+	}
+
+}
+
+
+
+
+
+
+
