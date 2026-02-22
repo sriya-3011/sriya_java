@@ -1,0 +1,127 @@
+1)
+package java1;
+
+public class Sample {
+
+	public static void main(String[] args) {
+	for(int i=1;i<=50;i++) {
+		System.out.println(i);
+	
+	}
+
+	}
+
+}
+2)
+package java1;
+
+public class Sample {
+
+	public static void main(String[] args) {
+	for(int i=1;i<=20;i++) {
+		int a=i*i;
+		System.out.println(a);
+	
+	}
+
+	}
+
+}
+3)
+package java1;
+
+public class Sample19 {
+
+	public static void main(String[] args) {
+	for(int i=1;i<=10;i++) {
+		System.out.println(i+"x"+"10"+"="+i*10);
+	
+	}
+
+	}
+
+}
+4)
+package java1;
+
+import java.util.Scanner;
+
+public class Sample18 {
+
+	public static void main(String[] args) {
+		for(int i=1;i<=100;i++) {
+			if(i%2==0) {
+				System.out.println(i);
+			}
+		}
+		
+
+	}
+
+}
+5)
+package java1;
+
+import java.util.Scanner;
+
+public class Sample18 {
+
+	public static void main(String[] args) {
+		int count=0;
+		for(int i=1;i<=100;i++) {
+			if(i%3==0) {
+				System.out.println(i);
+				count++;
+			
+				
+			}
+		
+		}
+		System.out.println("The count is"+count);
+
+	}
+
+}
+6)
+package java1;
+
+
+public class Sample17 {
+
+	public static void main(String[] args) {
+		int fact=1;
+		for(int i=1;i<=10;i++) {
+			fact=fact*i;
+			System.out.println("Factorial:"+fact);
+		}
+		
+			}
+
+}
+
+7)
+package java1;
+
+import java.util.Scanner;
+
+public class Sample20 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a string");
+		String n=sc.next();
+		String f="";
+		for(int i=n.length()-1;i>=0;i--)
+		{
+		
+			f=f+n.charAt(i);
+		}
+		System.out.println("Reverse the string: "+f);
+	
+	}
+
+
+}	
+
+
+
