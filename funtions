@@ -1,1 +1,223 @@
+1)
+package java1;
 
+public class Details {
+	int id=101;
+	String name="Arun";
+	int mark=80;
+	void display() {
+		System.out.println("id:"+id);
+		System.out.println("Name:"+name);
+		System.out.println("Mark:"+mark);
+	}
+	public static void main(String[] args) {
+		Details d=new Details();
+		d.display();
+		
+
+	}
+
+}
+2)
+package java1;
+
+public class Rectangle {
+	int l=12;
+	int b=5;
+	int area=l*b;
+	void display() {
+		System.out.println("Area of rectangle:"+area);
+		
+	}
+
+	public static void main(String[] args) {
+		Rectangle r=new Rectangle();
+		r.display();
+		}
+
+}
+3)
+package java1;
+
+public class Circle {
+	int radius=4;
+	double area=3.14*radius*radius;
+	double circumference=2*3.14*radius;
+	void area() {
+		System.out.println("Area:"+area);
+	}
+	void circumference() {
+		System.out.println("Circumfernce:"+circumference);
+	}
+	public static void main(String[] args) {
+		Circle r=new Circle();
+		r.area();
+		r.circumference();
+		}
+
+}
+4)
+public class Employee {
+	int id=101;
+	String name="Arun";
+	int salary=50000;
+	void display() {
+		System.out.println("id:"+id);
+		System.out.println("Name:"+name);
+		System.out.println("Salary:"+salary);
+	}
+	public static void main(String[] args) {
+		Employee d=new Employee();
+		d.display();
+		
+
+	}
+
+}
+5)
+public class Car {
+	String brand="Honda";
+	String model="jazz";
+	int price=80000;
+	void display() {
+		System.out.println("Brand:"+brand);
+		System.out.println("Model:"+model);
+		System.out.println("Price:"+price);
+	}
+	public static void main(String[] args) {
+		Car c=new Car();
+		c.display();
+		
+
+	}
+
+}
+6)
+package java1;
+
+public class Mobile {
+	String brand="vivo";
+	String storage="5GB";
+	int price=18000;
+	void display() {
+		System.out.println("Brand:"+brand);
+		System.out.println("Model:"+storage);
+		System.out.println("Price:"+price);
+	}
+	public static void main(String[] args) {
+		Mobile m=new Mobile();
+		m.display();
+		
+
+	}
+
+}
+7)
+package java1;
+
+public class Bank {
+	int accno=12345;
+	String name="Anu";
+	int balance=0;
+	void deposit(double amt) {
+		if(amt>0) {
+			balance+=amt;
+			System.out.println("Deposited "+balance);
+		}
+		else {
+			System.out.println("Invaild");
+		}
+	}
+	void withdraw(double amt) {
+		if(amt>0&&amt<=balance) {
+			balance-=amt;
+			System.out.println("withdrawn "+balance);
+		}
+		else {
+			System.out.println("Insufficient Balance");
+		}
+	}
+	public static void main(String[] args) {
+		Bank c=new Bank();
+		c.deposit(1000);
+		c.withdraw(200);
+		
+
+	}
+
+}
+8)
+package java1;
+
+public class Book {
+	void display(int bookid,String bookname,String author) {
+		System.out.println("Bookid:"+bookid);
+		System.out.println("Book Name:"+bookname);
+		System.out.println("Author:"+author);
+	}
+	public static void main(String[] args) {
+		Book d=new Book();
+		d.display(101,"Harry potter","Jk rowling");
+		d.display(102,"Silence","James");
+		
+
+	}
+
+}
+9)
+package java1;
+
+public class Laptop {
+	String brand="Dell";
+	String ram="8Gb";
+	int price=90000;
+	void display() {
+		System.out.println("Brand:"+brand);
+		System.out.println("RAM storage:"+ram);
+		System.out.println("price:"+price);
+	}
+	public static void main(String[] args) {
+		Laptop d=new Laptop();
+		d.display();
+
+	}
+
+}
+10)
+package java1;
+
+public class Movie {
+	String title="Silence";
+	String director="karl";
+	int rating=5;
+	void display() {
+		System.out.println("Movie title:"+title);
+		System.out.println("Director:"+director);
+		System.out.println("Rating"+rating);
+	}
+	public static void main(String[] args) {
+		Movie d=new Movie();
+		d.display();
+
+	}
+
+}
+
+package java1;
+
+public class Hotel {
+	int roomnum=101;
+	String type="single";
+	int price=5000;
+	void display() {
+		System.out.println("Room number:"+roomnum);
+		System.out.println("Type:"+type);
+		System.out.println("price:"+price);
+	}
+	public static void main(String[] args) {
+		Hotel d=new Hotel();
+		d.display();
+
+	}
+
+}
