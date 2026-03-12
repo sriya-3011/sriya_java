@@ -221,3 +221,240 @@ public class Hotel {
 	}
 
 }
+12)
+package java1;
+
+
+class Animal {
+    void eat() {
+        System.out.println("Animals eat food");
+    }
+}
+
+class Dog extends Animal {
+    void bark() {
+        System.out.println("Dog barks");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Dog d = new Dog();
+        d.eat();
+        d.bark();
+    }
+}
+13)
+package java1;
+
+class vehicle {
+    void drive() {
+        System.out.println("All vehicles are used to drive");
+    }
+}
+
+class Bike extends vehicle {
+    void type() {
+        System.out.println("Two-wheeler");
+    }
+
+    void colour() {
+        System.out.println("Black colour");
+    }
+}
+
+public class Test {
+    public static void main(String[] args) {
+        Bike c = new Bike();
+        c.drive();
+        c.type();
+        c.colour();
+    }
+}
+14)
+package java1;
+class College{
+	void name(String name) {
+		System.out.println("Name "+name);
+	}
+	void age(int age) {
+		System.out.println("Age "+age);
+	}
+}
+class Student extends College{
+	
+	void rollno(int rollno) {
+		System.out.println("Roll no "+rollno);
+		
+	}
+	void marks(int mark) {
+		System.out.println("Mark "+mark);
+	}
+}
+public class Test1 {
+
+	public static void main(String[] args) {
+		Student s =new Student();
+		s.name("Anu");
+		s.age(19);
+		s.rollno(101);
+		s.marks(90);
+
+	}
+
+}
+15)
+package java1;
+class Employee{
+	void name(String name) {
+		System.out.println("Name "+name);
+	}
+	void salary(int sal) {
+		System.out.println("Salary "+sal);
+	}
+}
+class Manager extends Employee{
+	void bonus(int b) {
+		System.out.println("Bonus "+b);
+	}
+}
+public class Test2 {
+
+	public static void main(String[] args) {
+		Manager m=new Manager();
+		m.name("Arun");
+		m.salary(30000);
+		m.bonus(5000);
+	}
+
+}
+16)
+package java1;
+class Shapes{
+	void shape() {
+		System.out.println("Area to be calculated");
+	}
+}
+class Circle extends Shapes{
+	void area(int radius) {
+		double a=3.14*radius*radius;
+		System.out.println("Area of circle "+a);
+	}
+}
+class Rectangle extends Shapes{
+	void area(int l,int b) {
+		int a=l*b;
+		System.out.println("Area of rectangle "+a);
+	}
+}
+public class Test3 {
+
+	public static void main(String[] args) {
+		Circle c=new Circle();
+		Rectangle r=new Rectangle();
+		r.shape();
+		c.area(4);
+		r.area(10, 2);
+
+	}
+
+}
+17)
+package java1;
+class Account {
+    void Type() {
+        System.out.println("General Account");
+    }
+}
+
+class SavingsAccount extends Account {
+    void interest() {
+        System.out.println("Savings account gives interest");
+    }
+}
+
+class CurrentAccount extends Account {
+    void noInterest() {
+        System.out.println("Current account has no interest");
+    }
+}
+
+public class Test4 {
+    public static void main(String[] args) {
+        SavingsAccount s = new SavingsAccount();
+        CurrentAccount c = new CurrentAccount();
+        s.Type();
+        s.interest();
+        c.noInterest();
+    }
+}
+18)
+package java1;
+
+class vehicle {
+    void drive() {
+        System.out.println("All vehicles are used to drive");
+    }
+}
+class Car extends vehicle{
+	void type() {
+		System.out.println("Four-wheeler");
+	}
+}
+class Bike extends vehicle {
+    void type() {
+        System.out.println("Two-wheeler");
+    }
+}
+class Truck extends vehicle{
+	void type() {
+		System.out.println("Eight-wheeler");
+	}
+}
+public class Test {
+    public static void main(String[] args) {
+    	Car c=new Car();
+        Bike b = new Bike();
+        Truck t=new Truck();
+        c.drive();
+        c.type();
+        b.drive();
+        b.type();
+        t.drive();
+        t.type();
+        
+    }
+}
+19)
+package java1;
+class Staff{
+	void hospital(){
+		System.out.println("Hospital System");
+		
+	}
+}
+class  Doctor extends Staff{
+	void treatment() {
+		System.out.println("Treat patients");
+		
+	}
+}
+class Nurse extends Staff{
+	void treatment() {
+		System.out.println("Assist doctors");
+	}
+	
+}
+public class Test5 {
+
+	public static void main(String[] args) {
+		Doctor d=new Doctor();
+		Nurse n=new Nurse();
+		d.hospital();
+		d.treatment();
+		n.hospital();
+		n.treatment();
+	}
+
+}
+
