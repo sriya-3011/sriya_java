@@ -458,3 +458,43 @@ public class Test5 {
 
 }
 
+20)
+package java1;
+class Calculator{
+	int add(int a,int b) {
+		return a+b;
+	}
+	int add (int a,int b,int c) {
+		return a+b+c;
+	}
+}
+public class Test7 {
+
+	public static void main(String[] args) {
+		Calculator c=new Calculator();
+		System.out.println(c.add(10,9));
+		System.out.println(c.add(12, 13,16));
+	}
+
+}
+21)
+package java1;
+class Geometry{
+	double area(double radius) {
+		return 3.14*radius*radius;
+	}
+	int area(int length,int breadth) {
+		return length*breadth;
+	}
+	
+}
+public class Test7 {
+
+	public static void main(String[] args) {
+		Geometry g=new Geometry();
+		System.out.println(g.area(1.2));
+		System.out.println(g.area(12,10));
+	}
+
+}
+22)
